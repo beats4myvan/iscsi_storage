@@ -1,6 +1,7 @@
 # win storage
 
-#Additional use commands
+#Additional commands
+
 Get-PhysicalDisk | Where CanPool -Eq True | Select UniqueId, MediaType, Size
 
 
